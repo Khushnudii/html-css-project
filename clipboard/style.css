@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --blue: hsl(233, 100%, 69%);
+  --darkGrey: hsl(210, 10%, 33%);
+  --grey: hsl(201, 11%, 66%);
+  --largefont: hsl(210, 10%, 33%);
+  --smallfont: hsl(201, 11%, 66%);
+}
+body {
+  background: url("images/bg-header-desktop.png") no-repeat;
+  background-size: cover;
+}
+.download-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-logo {
+  margin: 5rem 1rem 2rem 1rem;
+}
+h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--largefont);
+}
+h2 {
+  color: var(--largefont);
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: center;
+}
+h3 {
+  color: var(--largefont);
+}
+p {
+  color: var(--smallfont);
+  font-weight: 400;
+}
+.download-page p {
+  max-width: 37%;
+  padding-top: 1rem;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn {
+  padding: 1rem 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1.7rem;
+  border: none;
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.ios {
+  background-color: var(--cyan);
+  box-shadow: 4px 7px 10px 0px hsl(165, 83%, 89%);
+}
+.mac {
+  background-color: var(--blue);
+  box-shadow: 4px 7px 10px 0px hsl(228, 78%, 91%);
+}
+.snippets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.snippets p {
+  max-width: 50%;
+  text-align: center;
+  margin: 0.7rem 2rem 1rem 2rem;
+  padding: 0 1rem 0 1rem;
+}
+.monitor {
+  margin-top: 4rem;
+  display: flex;
+
+}
+.monitor img {
+  margin-left: -1.2rem;
+}
+.functions {
+  display: flex;
+  flex-direction: column;
+  margin: 4.4rem 12rem 0 5rem;
+  text-align: start;
+  padding-right: 1rem;
+  line-height: 1.8rem;
+}
+.functions p {
+  margin-bottom: 3.3rem;
+}
+.access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 18rem 2rem 18rem;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.access p {
+  max-width: 78%;
+  margin: 0.8rem 0 5rem 0;
+}
+.supercharge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.supercharge p {
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+  font-size: 0.9rem;
+}
+.icons {
+  display: flex;
+  padding: 0 9rem;
+  margin: 1rem 13rem 1rem 13em;
+  gap: 1rem;
+}
+
+.box p {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  margin-top: 0.7rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.box img {
+  margin-bottom: 2rem;
+}
+.text img {
+  margin-bottom: 2.5rem;
+}
+.preview img {
+  margin-bottom: 2.5rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  margin: 7rem 6rem 0 6rem;
+}
+.download-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 1.2rem;
+}
+.download-last p {
+  text-align: center;
+  max-width: 41%;
+  margin: 1rem 0 2.2rem 0;
+}
+.download-last h2 {
+  max-width: 85%;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.footer-img {
+  max-width: 3rem;
+}
+.footer-logo {
+  display: flex;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  margin-right: 10rem;
+}
+.list ul {
+  list-style: none;
+  color: var(--smallfont);
+  line-height: 2.3rem;
+}
+
+
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
+  .download-page {
+    padding: 2rem;
+  }
+  .snippets {
+    padding: 2rem;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  .btn {
+    margin: 0;
+    font-size: 1.6rem;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
+  .download-page p {
+    max-width: 87%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.8rem;
+  }
+  .snippets p {
+    max-width: 93%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.8rem;
+  }
+  .monitor {
+    flex-direction: column;
+  }
+  .monitor-img {
+    margin: 1rem;
+  }
+  .monitor img {
+    margin: 0;
+    max-width: 100%;
+  }
+  .functions {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .functions p {
+    max-width: 80%;
+  }
+  .access {
+    margin: 3rem 1rem 2rem 1rem;
+    padding: 0;
+  }
+  .access p {
+    margin: 1rem 0 2.3rem 0;
+    padding: 0;
+    max-width: 95%;
+  }
+  .access img {
+    max-width: 100%;
+  }
+  .supercharge {
+    padding: 3rem 5rem;
+  }
+  .supercharge p {
+    margin-bottom: 2rem;
+  }
+  .icons {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .box img {
+    margin-bottom: 2rem;
+  }
+  .icons p {
+    margin: 1rem 4.7rem 1.3rem 4.7rem;
+    padding: 0 1rem;
+  }
+  .logo {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .download-last {
+    /* margin: 2.9rem; */
+  }
+  .download-last p {
+    max-width: 91%;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .list{
+    flex-direction: column;
+    margin: 3rem 0;
+    gap: 0;
+  }
+ .list ul {
+  text-align: center;
+ }
+}
